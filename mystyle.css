@@ -1,0 +1,83 @@
+
+
+body.class1 {
+    padding-left: 5em;
+}
+body.class2 {
+    padding-left: 5.5em;
+}
+body > #bar {
+    position:fixed;
+    top:0; left:0;
+	right:1em;
+    width: 5em;
+    height: 100%;
+    border-right: 1px solid #55F; background: #ddd;
+}
+
+body > #bar1 {
+    position:fixed;
+    top:0; left:0;
+	right:1em;
+    width: 5em;
+    height: 100%;
+    border-right: 1px solid #000000; background: #A3A5D8;
+}
+h1.class1 {
+    color: red;
+    font-family: verdana;
+    font-size: 120%;
+}
+h1.class2 {
+    color: red;
+    font-family: verdana;
+    font-size: 120%;
+}
+h2.class1 {
+    color: red;
+    font-family: verdana;
+    font-size: 300%;
+}
+h3.class1 {
+    color: black;
+    font-family: verdana;
+    font-size: 300%;
+}
+h4.class1 {
+    color: magenta;
+    font-family: verdana;
+    font-size: 300%;
+}
+p.class1  {
+    color: red;
+    font-family: courier;
+    font-size: 160%;
+}
+
+p.class2  {
+    color: blue;
+    font-family: Times New Roman;
+    font-size: 100%;
+}
+
+#class1{
+	color: blue;
+    font-family: Times New Roman;
+    font-size: 150%;
+	text-decoration: underline;
+
+}
+#class2 {
+    color: blue;
+    font-family: Times New Roman;
+    font-size: 100%;
+}
+
+table.class1, th, td {
+    border: 1px solid black;
+	padding: 15px
+}
+
+body {
+  min-width: 550px;      /* 2x LC width + RC width */
+}
